@@ -5,9 +5,11 @@ import sys
 
 ans = 0
 for line in sys.stdin:
-    try:
-        ans += int(line)
-    except:
-        ans += float(line)
-
+        try:
+            ans += int(line)
+        except ValueError:
+            try:
+                ans += float(line)
+            except ValueError:
+                ans ="入力が変だぞ(￣д￣)"
 print(ans)
