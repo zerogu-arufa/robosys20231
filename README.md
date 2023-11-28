@@ -1,5 +1,5 @@
 # plusコマンド
-![test](https://github.com/ryuichiueda/robosys2022/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/zerogu-arufa/robosys20231/actions/workflows/test.yml/badge.svg)
 ↑ テスト結果を反映したバッジの画像が埋め込まれる。（ryuichiueda等は各自変更を。）
 
 ## 行える処理:
