@@ -1,6 +1,5 @@
 # plusコマンド
 ![test](https://github.com/zerogu-arufa/robosys20231/actions/workflows/test.yml/badge.svg)
-↑ テスト結果を反映したバッジの画像が埋め込まれる。（ryuichiueda等は各自変更を。）
 
 ## 行える処理:
 このプログラムは標準入力から読み込んだ行の値を足した値、引いた値、掛けた値を順に出力します。
