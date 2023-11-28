@@ -16,7 +16,6 @@ except ValueError:
         ans2 -= float(line)
         ans3 *= float(line)
 except ValueError:
-    try:
         ans1 =""
         ans2 =""
         ans3 =""
