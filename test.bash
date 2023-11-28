@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/bash
 # SPDX-FileCopyrightText: 2023 Tateuchi
 # SPDX-License-Identifier: BSD-3-Clause
 ng (){
