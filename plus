@@ -16,5 +16,6 @@ for line in sys.stdin:
             except ValueError:
                 ans1 ="足し算時の入力が変だぞ(￣д￣)"
                 ans2 ="掛け算時の入力が変だぞ(￣д￣)"
-print(ans1)
-print(ans2)
+print("足し算の結果は"+str(ans1))
+print("掛け算の結果は"+str(ans2))
+
