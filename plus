@@ -10,7 +10,4 @@ for line in sys.stdin:
     except ValueError:
         try:
             ans += float(line)
-        except ValueError:
-            print("入力が変だぞ(￣д￣)")
-
             print(ans)
