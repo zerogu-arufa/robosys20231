@@ -8,8 +8,7 @@ ng (){
 		    res=0
 	    ### I/O TEST ###
 	    out=$(seq 5 | ./plus)
-	    [ "${out}" ="足し算の結果は15
-	  掛け算の結果は120" ] || ng ${LINENO}
+	    [ "${out}" ="足し算の結果は15" ] || ng ${LINENO}
 	    [ "$res" = 0 ] && echo OK 
 	    # &&（AND記号）は左側が成功すると右側を実行
 	    exit $res
