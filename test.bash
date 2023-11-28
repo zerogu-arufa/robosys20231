@@ -1,16 +1,14 @@
-#!/bin/bash
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 Tateuchi
+# SPDX-License-Identifier: BSD-3-Clause
+import sys
 
-ng(){
-	echo NG at LIne $1
-	res=1
-}
-
-res=0
-
-out=$(seq 5 | ./plus)
-
-[ "${out}" = 15 ] || ng ${LINENO}
-
-[ "res" = 0 ] && echo OK
-
-exit $res
+ans = 0
+for line in sys.stdin:
+	try:
+	ans += int(line)
+	except:
+	ans += float(line)
+	print(ans)
+	except ValueError:
+	print("入力が変だぞ(￣д￣)") 	
