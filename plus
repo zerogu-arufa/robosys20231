@@ -3,19 +3,14 @@
 # SPDX-License-Identifier: BSD-3-Clause
 import sys
 
-ans1 = 0
-ans2 = 0
+ans = 0
 for line in sys.stdin:
         try:
             ans1 += int(line)
-            ans2 *= int(line)
         except ValueError:
             try:
                 ans1 += float(line)
-                ans2 *= float(line)
             except ValueError:
                 ans1 ="足し算時の入力が変だぞ(￣д￣)"
-                ans2 ="掛け算時の入力が変だぞ(￣д￣)"
 print("足し算の結果は"+str(ans1))
-print("掛け算の結果は"+str(ans2))
 
