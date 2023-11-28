@@ -14,12 +14,12 @@ for line in sys.stdin:
         except ValueError:
             try:
                 ans1 += float(line)
-                ans2 += float(line)
-                ans3 += flout(line)
+                ans2 -= float(line)
+                ans3 *= float(line)
             except ValueError:
-                ans1 ="足し算時の入力が変だぞ(￣д￣)"
-                ans2 ="引き算時の入力が変だぞ(￣д￣)"
-                ans3 ="掛け算時の入力が変だぞ(￣д￣)"
-print("足し算の結果:",ans1)
-print("引き算の結果:",ans2)
-print("掛け算の結果:",ans3)
+                ans1 =""
+                ans2 =""
+                ans3 =""
+print(ans1)
+print(ans2)
+print(ans3)
