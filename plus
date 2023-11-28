@@ -4,7 +4,7 @@
 import sys
 
 ans1 = 0
-ans2 = 1
+ans2 = 0
 for line in sys.stdin:
         try:
             ans1 += int(line)
