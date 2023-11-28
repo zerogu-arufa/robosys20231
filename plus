@@ -7,7 +7,6 @@ ans1 = 0
 ans2 = 0
 ans3 = 1
 for line in sys.stdin:
-    #少数、アリ無しを考慮した足し算、引き算、掛け算の計算処理
         try:
             ans1 += int(line)
             ans2 -= int(line)
@@ -18,13 +17,9 @@ for line in sys.stdin:
                 ans2 -= float(line)
                 ans3 *= float(line)
             except ValueError:
-             #例外処理を行い数字以外の文字の時は空白表記
             　　ans1 =""
                 ans2 =""
                 ans3 =""
-#足し算の結果
 print(ans1)
-#引き算の結果
 print(ans2)
-#掛け算の結果
 print(ans3)
