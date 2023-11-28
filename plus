@@ -10,7 +10,7 @@ for line in sys.stdin:
         ans1 += int(line)
         ans2 -= int(line)
         ans3 *= int(line)
-except SomeException:
+except ValueError:
     try:
         ans1 += float(line)
         ans2 -= float(line)
