@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2023 Tateuchi
 # SPDX-License-Identifier: BSD-3-Clause
 ng () {
-	      echo NG at Line $1
+	      echo ${1}行目が違うわボケ！
 	            res=1
 	    }
 	    res=0
