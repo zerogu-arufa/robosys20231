@@ -12,15 +12,20 @@
 また、この時の「数字以外」には空行(空白)も含まれているため、標準入力を行う際は気を付けて下さい。
 
 ##インストール方法
-$ git clone git@github.com:zerogu-arufa/robosys20231.git
+```
+git clone git@github.com:zerogu-arufa/robosys20231.git
 cd robosys20231
 chmod +x plus
-
+```
 ##使用例
-$ cd robosys20231
+```
+cd robosys20231
 seq 5 | ./plus
+```
 #結果として
+```
 15
+```
 と表示されます
 ## 必要なソフトウェア:
 * Python
