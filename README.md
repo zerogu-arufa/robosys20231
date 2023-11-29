@@ -38,4 +38,4 @@ seq 5 | ./plus
 * このパッケージのコードは、下記のリポジトリ(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです.
 * [ryuichiueda/robosys2023](https://github.com/ryuichiueda/robosys2023)
 
-*© 2023 Tateuchi Naoya
+* © 2023 Tateuchi Naoya
