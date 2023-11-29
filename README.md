@@ -42,7 +42,7 @@ $ echo 1    2  5 | ./plus
 
 # 権利に関する記載
 * このソフトフェアパッケージは、BSDライセンスである3条項の事項の下、再頒布および使用が許可されます.
-* このパッケージのコードは、下記のリポジトリ(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです.
-* [ryuichiueda/robosys2023](https://github.com/ryuichiueda/robosys2023)
+* このパッケージのコード一部は、下記のplusのコード(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです.
+* [ryuichiueda/robosys2023](https://github.com/ryuichiueda/robosys2023/blob/main/plus)
 
 * © 2023 Tateuchi Naoya
