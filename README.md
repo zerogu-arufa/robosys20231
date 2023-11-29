@@ -13,16 +13,13 @@
 
 ## インストール方法
 ```
-git clone git@github.com:zerogu-arufa/robosys20231.git
-cd robosys20231
-chmod +x plus
+$ git clone git@github.com:zerogu-arufa/robosys20231.git
+$ cd robosys20231
+$ chmod +x plus
 ```
 ## 使用例
 ```
-seq 5 | ./plus
-```
-と入力すると、結果として
-```
+$ seq 5 | ./plus
 15
 -15
 100
@@ -30,10 +27,7 @@ seq 5 | ./plus
 と表示されます。<br/>
 また、
 ```
-echo 1    2  5 | ./plus
-```
-と入力すると、結果として
-```
+$ echo 1    2  5 | ./plus
 8
 -8
 10
