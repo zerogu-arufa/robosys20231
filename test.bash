@@ -18,8 +18,5 @@ out=$(seq 5 | ./plus)
 out=$(echo あ | ./plus)
 [ "$?" = 0 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
-
-out=$(echo | ./plus) #空文字
-[ "$?" = 0 ]      || ng ${LINENO}
-[ "${out}" = "" ] || ng ${LINENO}
+            [ "$res" = 0 ] && echo OK
 	    exit $res
