@@ -16,7 +16,7 @@ out=$(seq 5 | ./plus)
 
 ### 例外動作テスト ###
 out=$(echo あ | ./plus)
-[ "$?" = 0 ]      || ng ${LINENO}
-[ "${out}" = "" ] || ng ${LINENO}
+[ "$?" = 0 ]                || ng ${LINENO}
+[ "${out}" = "" ]           || ng ${LINENO}
             [ "$res" = 0 ] && echo OK
 exit $res
