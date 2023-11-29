@@ -1,7 +1,7 @@
-## plusコマンド
+# plusコマンド
 ![test](https://github.com/zerogu-arufa/robosys20231/actions/workflows/test.yml/badge.svg)
 
-# 行える処理:
+## 行える処理:
 このプログラムは標準入力から読み込んだ行の値を足した値、引いた値、掛けた値を順に出力します。<br/>
 この際、標準入力に数字以外が記載された場合は計算を行わず、空白表示を行います。
 
@@ -19,10 +19,9 @@ chmod +x plus
 ```
 ## 使用例
 ```
-cd robosys20231
 seq 5 | ./plus
 ```
-## 結果として
+結果として
 ```
 15
 ```
@@ -32,11 +31,11 @@ seq 5 | ./plus
   * テスト済み: 3.7〜3.10
 
 # テスト環境
-* Ubuntu
+* Ubuntu2204.2.33.0
 
 # 権利に関する記載
-*このソフトフェアパッケージは、BSDライセンスである3条項の事項の下、再頒布および使用が許可されます.
-*このパッケージのコードは、下記のリポジトリ(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです.
+* このソフトフェアパッケージは、BSDライセンスである3条項の事項の下、再頒布および使用が許可されます.
+* このパッケージのコードは、下記のリポジトリ(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです.
 * [ryuichiueda/robosys2023](https://github.com/ryuichiueda/robosys2023)
 
 *© 2023 Tateuchi Naoya
