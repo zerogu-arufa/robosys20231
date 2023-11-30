@@ -28,16 +28,16 @@ $ seq 5 | ./plus
 と表示されます。<br/>
 また、別の入力方法ですと
 ```
-$ echo 1    2  5 | ./plus
+$ echo 1 2 5 | ./plus
 8
 -8
 10
 ```
-と表示されます。
+と表示されます。(空白が多くても正常に計算されます)
 
 # 権利に関する記載 
 * このソフトフェアパッケージは、BSDライセンスである3条項の事項の下、再頒布および使用が許可されます.
-* このパッケージのコード一部は、下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです.
+* このパッケージのコード一部は、下記のスライドにおけるplusのコード(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです.
 * [ryuichiueda/robosys2023](https://github.com/ryuichiueda/robosys2023/tree/main)
 
 * © 2023 Tateuchi Naoya
