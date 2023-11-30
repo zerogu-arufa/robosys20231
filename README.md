@@ -18,7 +18,7 @@ $ git clone git@github.com:zerogu-arufa/robosys20231.git
 $ cd robosys20231
 $ chmod +x plus
 ```
-# 使用例
+## 使用例
 ```
 $ seq 5 | ./plus
 15
